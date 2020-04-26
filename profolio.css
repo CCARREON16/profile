@@ -1,0 +1,97 @@
+header{
+    font-size: 35px;
+    background-color: lightblue;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+
+
+
+
+}
+
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+.nav {
+    background-color: lightblue;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.nav > li >a:hover {
+color: blue;
+}
+h2 {
+    text-align: center;
+    font-family: cursive;
+
+}
+h3 {
+    color: blue;
+    font-size:80 ;
+}
+p {
+    color: blue;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+  body {
+    background-color: burlywood;
+    padding: 20px;
+  }
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .row {
+    margin: 8px -16px;
+  }
+  .row,
+.row > .column {
+  padding: 55px;
+}
+.column {
+    float: left;
+    width: 25%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.content {
+    background-color:sandybrown;
+    padding: 10px;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
